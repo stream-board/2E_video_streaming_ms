@@ -19,9 +19,7 @@
   ],
   "turnservers": [
     {
-      "urls": ["turn:your.turn.servers.here"],
-      "secret": "turnserversharedsecret",
-      "expiry": 86400
+      "urls": ["turn:ec2-34-228-226-216.compute-1.amazonaws.com:8887"]
     }
   ]
 }
