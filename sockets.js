@@ -11,6 +11,7 @@ module.exports = function (server, config) {
             video: true,
             audio: false
         };
+        console.log('User connected');
 
         // pass a message to another id
         client.on('message', function (details) {
